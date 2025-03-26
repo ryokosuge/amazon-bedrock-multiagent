@@ -1,0 +1,11 @@
+[project]
+name = "amazon-bedrock-multiagent"
+version = "0.1.0"
+description = "Amazon Bedrock MultiAgent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.37.20",
+    "dotenv>=0.9.9",
+    "streamlit>=1.44.0",
+]

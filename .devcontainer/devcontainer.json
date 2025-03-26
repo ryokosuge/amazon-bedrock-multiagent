@@ -1,0 +1,15 @@
+{
+    "name": "dev",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "make sync",
+    "forwardPorts": [
+        8501
+    ]
+}
